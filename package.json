@@ -2,8 +2,8 @@
   "name": "dc-visualization-delivery-preview",
   "version": "0.1.0",
   "scripts": {
-    "build": "npx rollup -c",
-    "dev": "npx rollup -c -w",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
     "start": "sirv public",
     "lint": "prettier --check \"src/**/*.{js,svelte,html}\" && eslint \"src/**/*.{js,svelte}\"",
     "format": "prettier --write \"src/**/*.{js,svelte,html}\" && eslint --fix \"src/**/*.{js,svelte}\""
